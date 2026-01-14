@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "About Us",
+    "programs": "Programs",
+    "staff": "Staff",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "admin": "Admin",
+    "register": "Register"
+  },
+  "hero": {
+    "announcement": "Registrations are open for 2025-2026",
+    "title1": "PROFESSIONAL SCHOOL",
+    "title2": "ELBASAN",
+    "title3": "CHOOSE YOUR CRAFT!",
+    "description": "We aim to be an innovation center, preparing young people for dignified employment through professional education.",
+    "soundOn": "Sound On"
+  },
+  "stats": {
+    "students": "Students",
+    "teachers": "Teachers",
+    "directions": "Directions",
+    "profiles": "Profiles"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Professional School Elbasan",
+    "description": "An innovation center preparing young people for dignified employment through quality professional education."
+  },
+  "programs": {
+    "title": "School Programs",
+    "subtitle": "Our educational programs"
+  },
+  "staff": {
+    "title": "Meet Our Team",
+    "subtitle": "Dedicated professionals"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Special moments"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "admin": "Admin"
+  },
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "language": {
+    "select": "Select language"
+  },
+  "achievements": {
+    "badge": "Our Achievements",
+    "title": "Numbers That Speak",
+    "subtitle": "Decades of dedication to professional education with excellent results"
+  },
+  "testimonials": {
+    "badge": "Success Stories",
+    "title": "What Our Students Say",
+    "subtitle": "Hear from our graduates who have built successful careers"
+  },
+  "video": {
+    "badge": "Video Presentation",
+    "title": "Get to Know Our School",
+    "subtitle": "Watch our video to see our facilities, teachers, and students in action",
+    "watchFull": "Watch Full Video",
+    "feature1": "Modern Laboratories",
+    "feature1Desc": "Latest technology equipment",
+    "feature2": "Practical Learning",
+    "feature2Desc": "Learn by doing, not just listening",
+    "feature3": "Professional Internships",
+    "feature3Desc": "Partnerships with successful businesses"
+  }
+}

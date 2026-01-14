@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "Über Uns",
+    "programs": "Programme",
+    "staff": "Personal",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "admin": "Admin",
+    "register": "Registrieren"
+  },
+  "hero": {
+    "announcement": "Anmeldungen sind für 2025-2026 geöffnet",
+    "title1": "BERUFSSCHULE",
+    "title2": "ELBASAN",
+    "title3": "WÄHLE DEIN HANDWERK!",
+    "description": "Wir streben danach, ein Innovationszentrum zu sein und junge Menschen durch Berufsbildung auf eine würdevolle Beschäftigung vorzubereiten.",
+    "soundOn": "Sound On"
+  },
+  "stats": {
+    "students": "Schüler",
+    "teachers": "Lehrer",
+    "directions": "Fachrichtungen",
+    "profiles": "Profile"
+  },
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "Berufsschule Elbasan",
+    "description": "Ein Innovationszentrum, das junge Menschen durch qualitativ hochwertige Berufsbildung auf eine würdevolle Beschäftigung vorbereitet."
+  },
+  "programs": {
+    "title": "Schulprogramme",
+    "subtitle": "Unsere Bildungsprogramme"
+  },
+  "staff": {
+    "title": "Unser Team",
+    "subtitle": "Engagierte Fachleute"
+  },
+  "gallery": {
+    "title": "Fotogalerie",
+    "subtitle": "Besondere Momente"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir sind hier um zu helfen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "admin": "Admin"
+  },
+  "theme": {
+    "light": "Helles Thema",
+    "dark": "Dunkles Thema"
+  },
+  "language": {
+    "select": "Sprache auswählen"
+  },
+  "achievements": {
+    "badge": "Unsere Erfolge",
+    "title": "Zahlen die Sprechen",
+    "subtitle": "Jahrzehnte des Engagements für die Berufsausbildung mit hervorragenden Ergebnissen"
+  },
+  "testimonials": {
+    "badge": "Erfolgsgeschichten",
+    "title": "Was unsere Schüler Sagen",
+    "subtitle": "Hören Sie von unseren Absolventen, die erfolgreiche Karrieren aufgebaut haben"
+  },
+  "video": {
+    "badge": "Video-Präsentation",
+    "title": "Lernen Sie Unsere Schule Kennen",
+    "subtitle": "Sehen Sie unser Video um unsere Einrichtungen, Lehrer und Schüler in Aktion zu sehen",
+    "watchFull": "Vollständiges Video Ansehen",
+    "feature1": "Moderne Labore",
+    "feature1Desc": "Neueste Technologieausstattung",
+    "feature2": "Praktisches Lernen",
+    "feature2Desc": "Lernen durch Tun, nicht nur Zuhören",
+    "feature3": "Berufspraktika",
+    "feature3Desc": "Partnerschaften mit erfolgreichen Unternehmen"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "Rreth Nesh",
+    "programs": "Oferta Shkollore",
+    "staff": "Stafi",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "admin": "Admin",
+    "register": "Regjistrohu"
+  },
+  "hero": {
+    "announcement": "Regjistrimet kanë filluar për vitin 2025-2026",
+    "title1": "SHKOLLA PROFESIONALE",
+    "title2": "ELBASAN",
+    "title3": "ZGJIDH ZANATIN!",
+    "description": "Synojmë të jemi një qendër inovacioni, duke përgatitur të rinjtë për punësim të denjë përmes edukimit profesional.",
+    "soundOn": "Sound On"
+  },
+  "stats": {
+    "students": "Nxënës",
+    "teachers": "Mësues",
+    "directions": "Drejtime",
+    "profiles": "Profile"
+  },
+  "about": {
+    "title": "Rreth Nesh",
+    "subtitle": "Shkolla Profesionale Elbasan",
+    "description": "Një qendër inovacioni që përgatit të rinjtë për punësim të denjë përmes edukimit profesional cilësor."
+  },
+  "programs": {
+    "title": "Oferta Shkollore",
+    "subtitle": "Programet tona arsimore"
+  },
+  "staff": {
+    "title": "Njihuni me Ekipin Tonë",
+    "subtitle": "Profesionistë të përkushtuar"
+  },
+  "gallery": {
+    "title": "Foto nga Galeria",
+    "subtitle": "Momente të veçanta"
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Jemi këtu për t'ju ndihmuar"
+  },
+  "footer": {
+    "rights": "Të gjitha të drejtat e rezervuara",
+    "admin": "Admin"
+  },
+  "theme": {
+    "light": "Temë e çelët",
+    "dark": "Temë e errët"
+  },
+  "language": {
+    "select": "Zgjidhni gjuhën"
+  },
+  "achievements": {
+    "badge": "Arritjet Tona",
+    "title": "Numra që Flasin Vetë",
+    "subtitle": "Dekada të përkushtimit në arsimin profesional me rezultate të shkëlqyera"
+  },
+  "testimonials": {
+    "badge": "Histori Suksesi",
+    "title": "Çfarë Thonë Studentët Tanë",
+    "subtitle": "Dëgjoni nga studentët e diplomuar që kanë ndërtuar karriera të suksesshme"
+  },
+  "video": {
+    "badge": "Video Prezantuese",
+    "title": "Njihuni me Shkollën Tonë",
+    "subtitle": "Shikoni videon tonë për të parë ambientet, mësuesit dhe studentët tanë në veprim",
+    "watchFull": "Shiko Videon e Plotë",
+    "feature1": "Laboratorë Modernë",
+    "feature1Desc": "Pajisje të fundit teknologjike",
+    "feature2": "Mësim Praktik",
+    "feature2Desc": "Mësoni duke bërë, jo vetëm duke dëgjuar",
+    "feature3": "Praktikë Profesionale",
+    "feature3Desc": "Partneritet me biznese të suksesshme"
+  },
+  "timeline": {
+    "badge": "Historia Jonë",
+    "title": "Rrugëtimi i Shkollës",
+    "subtitle": "Momentet kyçe që kanë formësuar historinë tonë të suksesshme"
+  },
+  "application": {
+    "badge": "Aplikim Online",
+    "title": "Apliko Tani",
+    "subtitle": "Plotësoni formularin për të aplikuar në shkollën tonë. Procesi është i thjeshtë dhe i shpejtë.",
+    "success": {
+      "title": "Aplikimi u Regjistrua!",
+      "message": "Faleminderit për aplikimin tuaj. Do të kontaktoheni së shpejti për hapat e ardhshëm."
+    }
+  }
+}

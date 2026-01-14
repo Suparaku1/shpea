@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "Chi Siamo",
+    "programs": "Programmi",
+    "staff": "Personale",
+    "gallery": "Galleria",
+    "contact": "Contatti",
+    "admin": "Admin",
+    "register": "Registrati"
+  },
+  "hero": {
+    "announcement": "Le iscrizioni sono aperte per il 2025-2026",
+    "title1": "SCUOLA PROFESSIONALE",
+    "title2": "ELBASAN",
+    "title3": "SCEGLI IL TUO MESTIERE!",
+    "description": "Puntiamo ad essere un centro di innovazione, preparando i giovani per un impiego dignitoso attraverso l'istruzione professionale.",
+    "soundOn": "Sound On"
+  },
+  "stats": {
+    "students": "Studenti",
+    "teachers": "Insegnanti",
+    "directions": "Indirizzi",
+    "profiles": "Profili"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Scuola Professionale Elbasan",
+    "description": "Un centro di innovazione che prepara i giovani per un impiego dignitoso attraverso un'istruzione professionale di qualità."
+  },
+  "programs": {
+    "title": "Programmi Scolastici",
+    "subtitle": "I nostri programmi educativi"
+  },
+  "staff": {
+    "title": "Il Nostro Team",
+    "subtitle": "Professionisti dedicati"
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "subtitle": "Momenti speciali"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per aiutarti"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati",
+    "admin": "Admin"
+  },
+  "theme": {
+    "light": "Tema chiaro",
+    "dark": "Tema scuro"
+  },
+  "language": {
+    "select": "Seleziona lingua"
+  },
+  "achievements": {
+    "badge": "I Nostri Successi",
+    "title": "Numeri che Parlano",
+    "subtitle": "Decenni di dedizione all'istruzione professionale con risultati eccellenti"
+  },
+  "testimonials": {
+    "badge": "Storie di Successo",
+    "title": "Cosa Dicono i Nostri Studenti",
+    "subtitle": "Ascolta i nostri laureati che hanno costruito carriere di successo"
+  },
+  "video": {
+    "badge": "Video Presentazione",
+    "title": "Conosci la Nostra Scuola",
+    "subtitle": "Guarda il nostro video per vedere le nostre strutture, insegnanti e studenti in azione",
+    "watchFull": "Guarda Video Completo",
+    "feature1": "Laboratori Moderni",
+    "feature1Desc": "Attrezzature tecnologiche all'avanguardia",
+    "feature2": "Apprendimento Pratico",
+    "feature2Desc": "Impara facendo, non solo ascoltando",
+    "feature3": "Tirocini Professionali",
+    "feature3Desc": "Partnership con aziende di successo"
+  }
+}

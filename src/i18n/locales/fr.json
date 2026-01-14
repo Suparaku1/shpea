@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "programs": "Programmes",
+    "staff": "Personnel",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "admin": "Admin",
+    "register": "S'inscrire"
+  },
+  "hero": {
+    "announcement": "Les inscriptions sont ouvertes pour 2025-2026",
+    "title1": "ÉCOLE PROFESSIONNELLE",
+    "title2": "ELBASAN",
+    "title3": "CHOISISSEZ VOTRE MÉTIER!",
+    "description": "Nous visons à être un centre d'innovation, préparant les jeunes à un emploi digne grâce à l'éducation professionnelle.",
+    "soundOn": "Sound On"
+  },
+  "stats": {
+    "students": "Étudiants",
+    "teachers": "Enseignants",
+    "directions": "Filières",
+    "profiles": "Profils"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "École Professionnelle Elbasan",
+    "description": "Un centre d'innovation préparant les jeunes à un emploi digne grâce à une éducation professionnelle de qualité."
+  },
+  "programs": {
+    "title": "Programmes Scolaires",
+    "subtitle": "Nos programmes éducatifs"
+  },
+  "staff": {
+    "title": "Notre Équipe",
+    "subtitle": "Professionnels dévoués"
+  },
+  "gallery": {
+    "title": "Galerie Photo",
+    "subtitle": "Moments spéciaux"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "admin": "Admin"
+  },
+  "theme": {
+    "light": "Thème clair",
+    "dark": "Thème sombre"
+  },
+  "language": {
+    "select": "Sélectionnez la langue"
+  },
+  "achievements": {
+    "badge": "Nos Réussites",
+    "title": "Des Chiffres qui Parlent",
+    "subtitle": "Des décennies de dévouement à l'enseignement professionnel avec d'excellents résultats"
+  },
+  "testimonials": {
+    "badge": "Histoires de Réussite",
+    "title": "Ce que Disent nos Étudiants",
+    "subtitle": "Écoutez nos diplômés qui ont construit des carrières réussies"
+  },
+  "video": {
+    "badge": "Vidéo de Présentation",
+    "title": "Découvrez Notre École",
+    "subtitle": "Regardez notre vidéo pour voir nos installations, enseignants et étudiants en action",
+    "watchFull": "Voir la Vidéo Complète",
+    "feature1": "Laboratoires Modernes",
+    "feature1Desc": "Équipements technologiques de pointe",
+    "feature2": "Apprentissage Pratique",
+    "feature2Desc": "Apprenez en faisant, pas seulement en écoutant",
+    "feature3": "Stages Professionnels",
+    "feature3Desc": "Partenariats avec des entreprises prospères"
+  }
+}
