@@ -27,63 +27,55 @@ interface TeamMember {
 const fallbackStaff = [
   {
     id: '1',
-    full_name: "Arben Hoxha",
+    full_name: "Leonidha Haxhinikolla",
     position: "DREJTOR",
     department: "Drejtoria",
     quote: "Edukimi profesional është çelësi i suksesit për të rinjtë tanë. Ne përgatisim të ardhmen e Shqipërisë.",
-    photo_url: marcusPhoto,
+    photo_url: "/leonidha.jpg",
   },
   {
     id: '2',
-    full_name: "Mirela Shehu",
-    position: "ZV. DREJTORE",
+    full_name: "Juljan Kasapi",
+    position: "NënDREJTOR",
     department: "Drejtoria",
     quote: "Çdo nxënës ka potencial të jashtëzakonshëm. Detyra jonë është ta zbulojmë dhe ta zhvillojmë atë.",
-    photo_url: sofiaPhoto,
+    photo_url: "/juljan.jpg",
   },
   {
     id: '3',
-    full_name: "Besnik Muka",
+    full_name: "Entela Progri",
     position: "PËRGJEGJËS DEPARTAMENTI",
-    department: "Mekanikë & Elektroteknikë",
+    department: "TIK",
     quote: "Teknologjia po ndryshon botën. Ne përgatisim nxënësit për të qenë pionierë të këtij ndryshimi.",
-    photo_url: jakePhoto,
+    photo_url: "/entela.jpg",
   },
   {
     id: '4',
-    full_name: "Elona Tafaj",
-    position: "PËRGJEGJËSE DEPARTAMENTI",
-    department: "Ekonomi & Biznes",
+    full_name: "Esmerald Suparaku",
+    position: "Zhvillimi Web",
+    department: "TIK",
     quote: "Sipërmarrja dhe kreativiteti janë aftësitë e shekullit 21. Ne i mësojmë të dyja.",
-    photo_url: mayaPhoto,
+    photo_url: "/esmerald.jpg",
   },
   {
     id: '5',
-    full_name: "Genti Brahimi",
-    position: "KRYEMËSUES",
-    department: "Hoteleri & Turizëm",
-    quote: "Shqipëria ka potencial të jashtëzakonshëm turistik. Ne përgatisim profesionistët e mikpritjes.",
-    photo_url: connorPhoto,
+    full_name: "Lidia Guda",
+    position: "Profesore",
+    department: "TIK",
+    quote: "Shqipëria ka potencial të jashtëzakonshëm. Ne përgatisim profesionistët e informatikes.",
+    photo_url: "/lidia.jpg",
   },
   {
     id: '6',
-    full_name: "Ornela Koçi",
-    position: "KRYEMËSUESE",
-    department: "TIK & Programim",
+    full_name: "Arisa Arapi",
+    position: "Profesore",
+    department: "TIK",
     quote: "Kodimi është gjuha e re e botës. Nxënësit tanë mësojnë të komunikojnë me teknologjinë.",
-    photo_url: zaraPhoto,
-  },
-  {
-    id: '7',
-    full_name: "Fatmir Dema",
-    position: "KOORDINATOR",
-    department: "Praktika Profesionale",
-    quote: "Lidhja mes shkollës dhe tregut të punës është esenciale. Ne e krijojmë këtë urë çdo ditë.",
-    photo_url: leoPhoto,
+    photo_url: "/arisa.jpg",
   }
 ]
 
-const rotations = ['rotate-3', 'rotate-2', 'rotate-2', '-rotate-2', 'rotate-1', '-rotate-1', 'rotate-3']
+const rotations = ['rotate-3', 'rotate-2', '-rotate-2', 'rotate-1', '-rotate-1', 'rotate-2']
 
 export function Staff() {
   const [staffMembers, setStaffMembers] = useState<TeamMember[]>([])

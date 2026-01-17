@@ -10,6 +10,7 @@ import { Switch } from "@/components/ui/switch";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { toast } from "sonner";
 import { Plus, Pencil, Trash2, Users } from "lucide-react";
+import { FileUpload } from "@/components/FileUpload";
 
 interface TeamMember {
   id: string;
@@ -188,11 +189,22 @@ const TeamTab = () => {
                 </div>
               </div>
               <div>
-                <Label>URL e Fotos</Label>
+                <Label>Foto e Anëtarit</Label>
+                <div className="mt-2">
+                  <FileUpload
+                    currentUrl={formData.photo_url || undefined}
+                    onUploadComplete={(url) => setFormData({ ...formData, photo_url: url })}
+                    folder="team"
+                  />
+                </div>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Ose vendosni URL direkt:
+                </p>
                 <Input
                   value={formData.photo_url}
                   onChange={(e) => setFormData({ ...formData, photo_url: e.target.value })}
                   placeholder="https://..."
+                  className="mt-1"
                 />
               </div>
               <div>

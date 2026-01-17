@@ -75,7 +75,7 @@ export function VideoPresentation() {
           <div className="relative aspect-video bg-foreground">
             <video
               ref={videoRef}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain bg-white"
               muted={isMuted}
               loop
               playsInline
@@ -83,7 +83,7 @@ export function VideoPresentation() {
               onPlay={() => setIsPlaying(true)}
               onPause={() => setIsPlaying(false)}
             >
-              <source src="https://mojli.s3.us-east-2.amazonaws.com/Mojli+Website+upscaled+(12mb).webm" type="video/webm" />
+              <source src="/1.mp4" type="video/mp4" />
             </video>
 
             {/* Overlay Gradient */}

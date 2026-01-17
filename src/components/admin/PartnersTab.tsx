@@ -10,6 +10,7 @@ import { Switch } from "@/components/ui/switch";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { toast } from "sonner";
 import { Plus, Pencil, Trash2, Building2, ExternalLink } from "lucide-react";
+import { FileUpload } from "@/components/FileUpload";
 
 interface Partner {
   id: string;
@@ -153,11 +154,22 @@ const PartnersTab = () => {
                 />
               </div>
               <div>
-                <Label>URL e Logos</Label>
+                <Label>Logo e Partnerit</Label>
+                <div className="mt-2">
+                  <FileUpload
+                    currentUrl={formData.logo_url || undefined}
+                    onUploadComplete={(url) => setFormData({ ...formData, logo_url: url })}
+                    folder="partners"
+                  />
+                </div>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Ose vendosni URL direkt:
+                </p>
                 <Input
                   value={formData.logo_url}
                   onChange={(e) => setFormData({ ...formData, logo_url: e.target.value })}
                   placeholder="https://..."
+                  className="mt-1"
                 />
               </div>
               <div>

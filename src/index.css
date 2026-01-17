@@ -276,11 +276,19 @@
   }
   
   .film-scroll-animation {
-    animation: filmScroll 28s linear infinite;
+    animation: filmScroll 180s linear infinite;
+  }
+
+  .film-scroll-animation:hover {
+    animation-play-state: paused;
   }
   
   .perforations-scroll-animation {
-    animation: perforationsScroll 28s linear infinite;
+    animation: perforationsScroll 180s linear infinite;
+  }
+
+  .perforations-scroll-animation:hover {
+    animation-play-state: paused;
   }
   
   .animate-pulse {

@@ -1,20 +1,13 @@
 'use client'
 
-import minimalBestFilm from '../assets/minimal-best-film.png'
-import minimalAudienceChoice from '../assets/minimal-audience-choice.png'
-import minimalInnovation from '../assets/minimal-innovation.png'
-import minimalDirectorsChoice from '../assets/minimal-directors-choice.png'
-import minimalExcellence from '../assets/minimal-excellence.png'
-import minimalRisingTalent from '../assets/minimal-rising-talent.png'
-
 export function Partners() {
-  const awards = [
-    { image: minimalBestFilm, delay: "0s", label: "Partner Premium" },
-    { image: minimalAudienceChoice, delay: "0.5s", label: "Partner Strategjik" },
-    { image: minimalInnovation, delay: "1s", label: "Partner Teknologjik" },
-    { image: minimalDirectorsChoice, delay: "1.5s", label: "Partner Arsimor" },
-    { image: minimalExcellence, delay: "2s", label: "Partner Biznesi" },
-    { image: minimalRisingTalent, delay: "2.5s", label: "Partner Lokal" }
+  const partners = [
+    { image: "/partners/ac-logo.png", delay: "0s", label: "AC - Akademia e Certifikimit", darkBg: false },
+    { image: "/partners/elite-academy.webp", delay: "0.5s", label: "Elite Academy", darkBg: false },
+    { image: "/partners/s-logo.png", delay: "1s", label: "S Digital", darkBg: true },
+    { image: "/partners/webmaster.png", delay: "1.5s", label: "Web Master", darkBg: false },
+    { image: "/partners/best-cable.png", delay: "2s", label: "Best Cable Fiber", darkBg: false },
+    { image: "/partners/digispark.png", delay: "2.5s", label: "DigiSpark Agency", darkBg: true }
   ]
 
   return (
@@ -46,30 +39,30 @@ export function Partners() {
         {/* Awards/Partners Display */}
         <div className="relative max-w-7xl mx-auto">
           <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-            {awards.map((award, index) => (
+            {partners.map((partner, index) => (
               <div
                 key={index}
                 className="group relative flex flex-col items-center text-center"
-                style={{ animationDelay: award.delay }}
+                style={{ animationDelay: partner.delay }}
               >
                 <div className="relative mb-6">
                   <div className={`relative p-6 rounded-2xl border shadow-md transition-all duration-500 hover:scale-105 ${
-                    index === 2 || index === 3 ? 'bg-gray-800 border-gray-700' : 'bg-background border-border'
+                    partner.darkBg ? 'bg-gray-800 border-gray-700' : 'bg-background border-border'
                   }`}
                        style={{ boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}>
                     
                     <img 
-                      src={award.image}
-                      alt={award.label}
-                      className="w-full h-auto max-w-48 mx-auto"
-                      style={{ filter: 'contrast(1.02) saturate(1.1)' }}
+                      src={partner.image}
+                      alt={partner.label}
+                      className="w-full h-auto max-w-48 mx-auto object-contain"
+                      style={{ filter: 'contrast(1.02) saturate(1.1)', maxHeight: '120px' }}
                     />
                   </div>
                   
                   <div className="float-gentle absolute inset-0 pointer-events-none" />
                 </div>
 
-                <p className="text-sm font-medium text-muted-foreground">{award.label}</p>
+                <p className="text-sm font-medium text-muted-foreground">{partner.label}</p>
               </div>
             ))}
           </div>

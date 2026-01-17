@@ -41,14 +41,16 @@ export function About() {
   ]
 
   useEffect(() => {
-    setTimeout(() => {
+    const start = setTimeout(() => {
       setAnimationStarted(true)
       processSteps.forEach((_, index) => {
         setTimeout(() => {
           setActiveFrame(index)
-        }, index * 2000 + 1000)
+        }, index * 5000 + 1000)
       })
-    }, 3000)
+    }, 2000)
+
+    return () => clearTimeout(start)
   }, [])
 
   return (
